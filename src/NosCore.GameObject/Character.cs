@@ -60,6 +60,9 @@ namespace NosCore.GameObject
         public DateTime LastSpeedChange { get; set; }
 
         public DateTime LastMove { get; set; }
+
+        public DateTime LastGroupJoin { get; set; }
+
         public bool InvisibleGm { get; set; }
 
         public VisualType VisualType => VisualType.Player;
@@ -118,6 +121,8 @@ namespace NosCore.GameObject
         public bool IsAlive { get; set; }
         public Inventory Inventory { get; set; }
         public bool InExchangeOrTrade { get; set; }
+
+        public Group Group { get; set; }
 
         public FdPacket GenerateFd()
         {
