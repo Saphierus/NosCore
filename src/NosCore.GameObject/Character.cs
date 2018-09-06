@@ -30,9 +30,12 @@ namespace NosCore.GameObject
             FriendRequestCharacters = new ConcurrentDictionary<long, long>();
             CharacterRelations = new ConcurrentDictionary<long, CharacterRelation>();
             RelationWithCharacter = new ConcurrentDictionary<long, CharacterRelation>();
+            GroupRequestCharacterIds = new List<long>();
         }
 
         private byte _speed;
+
+        public List<long> GroupRequestCharacterIds { get; set; }
 
         public AccountDTO Account { get; set; }
 
