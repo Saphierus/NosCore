@@ -75,7 +75,6 @@ namespace NosCore.Core.Networking
 
             LastPacket = packet;
             _channel?.WriteAndFlushAsync(PacketFactory.Serialize(packet));
-            _channel?.Flush();
         }
 
         public void SendPackets(IEnumerable<PacketDefinition> packets)
