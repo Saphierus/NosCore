@@ -21,6 +21,8 @@ namespace NosCore.GameObject.Networking
     {
         private static ServerManager _instance;
 
+        private long _lastGroupId = 1;
+
         private static readonly ConcurrentDictionary<Guid, MapInstance> Mapinstances =
             new ConcurrentDictionary<Guid, MapInstance>();
 
@@ -39,6 +41,8 @@ namespace NosCore.GameObject.Networking
 
         public List<NpcMonsterDTO> NpcMonsters { get; set; }
         public List<Item.Item> Items { get; set; }
+
+        public ConcurrentDictionary<long, Group> Groups { get; set; }
 
         public MapInstance GenerateMapInstance(short mapId, MapInstanceType type)
         {
@@ -63,8 +67,15 @@ namespace NosCore.GameObject.Networking
             Observable.Interval(TimeSpan.FromMinutes(5)).Subscribe(x => { SaveAll(); });
         }
 
+        public long GetNextGroupId()
+        {
+            _lastGroupId++;
+            return _lastGroupId;
+        }
+
         public void Initialize()
         {
+            Groups = new ConcurrentDictionary<long, Group>();
             // parse rates
             try
             {
