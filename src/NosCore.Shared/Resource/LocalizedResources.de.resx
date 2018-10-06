@@ -117,4 +117,274 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ACCOUNT_ARRIVED" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ADMINISTRATOR" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="ADVENTURER" xml:space="preserve">
+    <value>Abenteurer</value>
+  </data>
+  <data name="ALREADY_TAKEN" xml:space="preserve">
+    <value>Der Name existiert bereits</value>
+  </data>
+  <data name="ARCHER" xml:space="preserve">
+    <value>Bogenschütze</value>
+  </data>
+  <data name="AT_LEAST_ONE_FILE_MISSING" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AUTHENTICATED_ERROR" xml:space="preserve">
+    <value>Authentifizierter Fehler</value>
+  </data>
+  <data name="AUTHENTICATED_SUCCESS" xml:space="preserve">
+    <value>Authentifizierter Erfolgreich!</value>
+  </data>
+  <data name="AUTH_ERROR" xml:space="preserve">
+    <value>Authentifikations Fehler</value>
+  </data>
+  <data name="AUTH_INCORRECT" xml:space="preserve">
+    <value>Inkorrekte Authentifizierung</value>
+  </data>
+  <data name="BAD_PASSWORD" xml:space="preserve">
+    <value>Falsches Passwort!</value>
+  </data>
+  <data name="CARDS_PARSED" xml:space="preserve">
+    <value>{0} Karten Geparsed</value>
+  </data>
+  <data name="CHANNEL" xml:space="preserve">
+    <value>Kanal</value>
+  </data>
+  <data name="CHARACTER_NOT_INIT" xml:space="preserve">
+    <value>Der Charakter nicht geladen</value>
+  </data>
+  <data name="CHARACTER_OFFLINE" xml:space="preserve">
+    <value>Der Charakter ist Offline!</value>
+  </data>
+  <data name="CLIENT_ARRIVED" xml:space="preserve">
+    <value>Client Identität gefunden, SessionId: {0}</value>
+  </data>
+  <data name="CLIENT_CONNECTED" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CLIENT_DISCONNECTED" xml:space="preserve">
+    <value>Verbindung wurde getrennt.</value>
+  </data>
+  <data name="CORRUPTED_KEEPALIVE" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CORRUPT_PACKET" xml:space="preserve">
+    <value>Packet mit dem Header {0} ist beschädigt oder Packet Definition ist nicht korrekt. Content: {1}</value>
+  </data>
+  <data name="DATABASE_INITIALIZED" xml:space="preserve">
+    <value>Datenbak wurde Initialisiert.</value>
+  </data>
+  <data name="DATABASE_NOT_UPTODATE" xml:space="preserve">
+    <value>Datenbank ist nicht updated. Bitte Update deine Datenbank.</value>
+  </data>
+  <data name="DONE" xml:space="preserve">
+    <value>Parsen Fertig!</value>
+  </data>
+  <data name="ENTER_PATH" xml:space="preserve">
+    <value>Bitte geben Sie das Verzeichnis der zu analysierenden Dateien ein.</value>
+  </data>
+  <data name="ERROR_CHANGE_MAP" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FORCED_DISCONNECTION" xml:space="preserve">
+    <value>Erzwungene Trennung von Client {0}, zu viele Verbindungen</value>
+  </data>
+  <data name="HANDLER_ERROR" xml:space="preserve">
+    <value>Handler ist Falsch</value>
+  </data>
+  <data name="HANDLER_NOT_FOUND" xml:space="preserve">
+    <value />
+  </data>
+  <data name="I18N_ACTDESC_PARSED" xml:space="preserve">
+    <value>{0} I18N ActDescs Fertig geparsed! Region: {1}</value>
+  </data>
+  <data name="I18N_BCARD_PARSED" xml:space="preserve">
+    <value>{0} I18N BCards Fertig geparsed! Region: {1}</value>
+  </data>
+  <data name="I18N_CARD_PARSED" xml:space="preserve">
+    <value>{0} I18N Cards Fertig geparsed! Region: {1}</value>
+  </data>
+  <data name="I18N_ITEM_PARSED" xml:space="preserve">
+    <value>{0} I18N Items Fertig geparsed! Region: {1}</value>
+  </data>
+  <data name="I18N_MAPIDDATA_PARSED" xml:space="preserve">
+    <value>{0} I18N MapIdDatas Fertig geparsed! Region: {1}</value>
+  </data>
+  <data name="I18N_MAPPOINTDATA_PARSED" xml:space="preserve">
+    <value>{0} I18N MapPointDatas Fertig geparsed! Region: {1}</value>
+  </data>
+  <data name="I18N_MPCMONSTER_PARSED" xml:space="preserve">
+    <value>{0} I18N NpcMonsters Fertig geparsed! Region: {1}</value>
+  </data>
+  <data name="I18N_NPCMONSTERTALK_PARSED" xml:space="preserve">
+    <value>{0} I18N NpcMonsterTalk Fertig geparsed! Region: {1}</value>
+  </data>
+  <data name="I18N_QUEST_PARSED" xml:space="preserve">
+    <value>{0} I18N Quests ertig geparsed! Region: {1}</value>
+  </data>
+  <data name="I18N_SKILL_PARSED" xml:space="preserve">
+    <value>{0} I18N Skills Fertig geparsed! Region: {1}</value>
+  </data>
+  <data name="INVALID_ACCOUNT" xml:space="preserve">
+    <value>Falsche ID!</value>
+  </data>
+  <data name="INVALID_CHARNAME" xml:space="preserve">
+    <value>Ungültige Zeichen in deinem Nicknamen</value>
+  </data>
+  <data name="INVALID_PASSWORD" xml:space="preserve">
+    <value>Falsches Passwort!</value>
+  </data>
+  <data name="ITEMS_PARSED" xml:space="preserve">
+    <value>{0} items Fertig geparsed!</value>
+  </data>
+  <data name="LISTENING_PORT" xml:space="preserve">
+    <value>Port wird gesucht {0}</value>
+  </data>
+  <data name="MAGICIAN" xml:space="preserve">
+    <value>Magier</value>
+  </data>
+  <data name="MAPMONSTERS_LOADED" xml:space="preserve">
+    <value>Es wurden {0} MapMonsters geladen!</value>
+  </data>
+  <data name="MAPNPCS_LOADED" xml:space="preserve">
+    <value>Es wurden {0} MapNPCs geladen!</value>
+  </data>
+  <data name="MAPS_LOADED" xml:space="preserve">
+    <value>Es wurden {0} Maps geladen!</value>
+  </data>
+  <data name="MAPS_PARSED" xml:space="preserve">
+    <value>Es wurden {0} Maps Importiert!</value>
+  </data>
+  <data name="MAPTYPES_PARSED" xml:space="preserve">
+    <value>Es wurden {0} MapTypen Importiert!</value>
+  </data>
+  <data name="MASTER_SERVER_LISTENING" xml:space="preserve">
+    <value>MasterServer Erfolgreich gestartet.</value>
+  </data>
+  <data name="MASTER_SERVER_RETRY" xml:space="preserve">
+    <value>Es konnte keine Verbindung zum MasterServer hergestellt werden! Es wird in 5 seconds neu Verbunden...</value>
+  </data>
+  <data name="MONSTERS_PARSED" xml:space="preserve">
+    <value>Es wurden {0} MapMonster Importiert!</value>
+  </data>
+  <data name="NO_MAP" xml:space="preserve">
+    <value>Der Server braucht die Nosville Map um zu Funktionieren.</value>
+  </data>
+  <data name="NPCMONSTERS_PARSED" xml:space="preserve">
+    <value>Es wurden {0} NpcMonster Importiert!</value>
+  </data>
+  <data name="NPCS_PARSED" xml:space="preserve">
+    <value>Es wurden {0} MapNpcs Importiert!</value>
+  </data>
+  <data name="PARSE_ACCOUNTS" xml:space="preserve">
+    <value>Möchtest du die Accounts Importieren?</value>
+  </data>
+  <data name="PARSE_ALL" xml:space="preserve">
+    <value>Möchtest du Alles Importieren?</value>
+  </data>
+  <data name="PARSE_CARDS" xml:space="preserve">
+    <value>Möchtest du die Karten Importieren?</value>
+  </data>
+  <data name="PARSE_DROPS" xml:space="preserve">
+    <value>Möchtest du die gegenstände Importieren?</value>
+  </data>
+  <data name="PARSE_I18N" xml:space="preserve">
+    <value>Möchtest du die I18N daten Importieren?</value>
+  </data>
+  <data name="PARSE_ITEMS" xml:space="preserve">
+    <value>Möchtest du die Items Importieren?</value>
+  </data>
+  <data name="PARSE_MAPNPCS" xml:space="preserve">
+    <value>Möchtest du die MapNpcs Importieren?</value>
+  </data>
+  <data name="PARSE_MAPS" xml:space="preserve">
+    <value>Möchtest du die Maps Importieren?</value>
+  </data>
+  <data name="PARSE_MAPTYPES" xml:space="preserve">
+    <value>Möchtest du die MapTypen Importieren? Wir empfehlen die Verwendung mit "MapTypen"</value>
+  </data>
+  <data name="PARSE_MONSTERS" xml:space="preserve">
+    <value>Möchtest du die NpcMonster Importieren?</value>
+  </data>
+  <data name="PARSE_NPCMONSTERDATA" xml:space="preserve">
+    <value>Möchtest du die NpcMonsterDaten Importieren?</value>
+  </data>
+  <data name="PARSE_NPCMONSTERS" xml:space="preserve">
+    <value>Möchtest du die Npcs Importieren?</value>
+  </data>
+  <data name="PARSE_PORTALS" xml:space="preserve">
+    <value>Möchtest du die Portale Importieren?</value>
+  </data>
+  <data name="PARSE_QUESTS" xml:space="preserve">
+    <value>Möchtest du die Quests Importieren?</value>
+  </data>
+  <data name="PARSE_RECIPES" xml:space="preserve">
+    <value>Möchtest du die Rezepte Importieren?</value>
+  </data>
+  <data name="PARSE_SHOPITEMS" xml:space="preserve">
+    <value>Möchtest du die Shop gegenstände Importieren?</value>
+  </data>
+  <data name="PARSE_SHOPS" xml:space="preserve">
+    <value>Möchtest du die Shops Importieren?</value>
+  </data>
+  <data name="PARSE_SHOPSKILLS" xml:space="preserve">
+    <value>Möchtest du die Shopskills Importieren?</value>
+  </data>
+  <data name="PARSE_SKILLS" xml:space="preserve">
+    <value>Möchtest du die Skills Importieren?</value>
+  </data>
+  <data name="PARSE_TELEPORTERS" xml:space="preserve">
+    <value>Möchtest du die Teleporter Importieren?</value>
+  </data>
+  <data name="PARSE_TIMESPACES" xml:space="preserve">
+    <value>Möchtest du die Timespaces Importieren?</value>
+  </data>
+  <data name="PORTALS_PARSED" xml:space="preserve">
+    <value>Es wurden {0} Portale Importiert!</value>
+  </data>
+  <data name="REGISTRED_FROM_MASTER" xml:space="preserve">
+    <value />
+  </data>
+  <data name="REGISTRED_ON_MASTER" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RESPAWNTYPE_PARSED" xml:space="preserve">
+    <value>Es wurden {0} RespawnTypen Importiert!</value>
+  </data>
+  <data name="SELECT_MAPID" xml:space="preserve">
+    <value>Bitte, wähle eine MapId:</value>
+  </data>
+  <data name="SEND_MESSAGE_TO_CHARACTER" xml:space="preserve">
+    <value>Nachricht wird gesendet an {0}</value>
+  </data>
+  <data name="SKILLS_PARSED" xml:space="preserve">
+    <value>Es wurden {0} Skills Importiert!</value>
+  </data>
+  <data name="SUCCESSFULLY_LOADED" xml:space="preserve">
+    <value>Erfolgreich geladen!</value>
+  </data>
+  <data name="SUPPORT" xml:space="preserve">
+    <value>Supporter {0}</value>
+  </data>
+  <data name="SWORDMAN" xml:space="preserve">
+    <value>Schwertkämpfer</value>
+  </data>
+  <data name="UNRECOGNIZED_MASTER_PACKET" xml:space="preserve">
+    <value>Nicht erkanntes Masterpaket.</value>
+  </data>
+  <data name="UNREGISTRED_FROM_MASTER" xml:space="preserve">
+    <value>Nicht Registriert im Master Server.</value>
+  </data>
+  <data name="WRESTLER" xml:space="preserve">
+    <value>Ringer</value>
+  </data>
+  <data name="WRONG_SELECTED_MAPID" xml:space="preserve">
+    <value>Falsche MapId!</value>
+  </data>
 </root>
